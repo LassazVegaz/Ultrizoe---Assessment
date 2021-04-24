@@ -1,0 +1,33 @@
+@import "./constants";
+
+h2,
+h1 {
+	color: $heading-color;
+}
+
+main {
+	padding: 30px 70px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.table {
+	width: 100%;
+	margin-top: 50px;
+	display: grid;
+	row-gap: 15px;
+
+	div {
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: 30% 30% 30% 10%;
+		padding: 16px 46px;
+	}
+
+	.table-row {
+		background: #edeeee;
+		border-radius: 8px;
+	}
+}

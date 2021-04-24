@@ -1,0 +1,34 @@
+h2,
+h1 {
+  color: #605d5d;
+}
+
+main {
+  padding: 30px 70px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 15px;
+}
+
+.table div {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  -ms-grid-columns: 30% 30% 30% 10%;
+      grid-template-columns: 30% 30% 30% 10%;
+  padding: 16px 46px;
+}
+
+.table .table-row {
+  background: #edeeee;
+  border-radius: 8px;
+}
