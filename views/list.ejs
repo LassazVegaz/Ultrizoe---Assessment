@@ -22,30 +22,16 @@
 					<span>Gender</span>
 				</div>
 
+				<% users.forEach(user => { %>
+
 				<div class="table-row">
-					<span>Elon Mask</span>
-					<span>+1111111111</span>
-					<span>United States</span>
-					<span>Male</span>
+					<span> <%- user.fname + " " + user.lname %> </span>
+					<span> <%- user.phone %> </span>
+					<span> <%- user.country %> </span>
+					<span> <%- user.gender %> </span>
 				</div>
-				<div class="table-row">
-					<span>Elon Mask</span>
-					<span>+1111111111</span>
-					<span>United States</span>
-					<span>Male</span>
-				</div>
-				<div class="table-row">
-					<span>Elon Mask</span>
-					<span>+1111111111</span>
-					<span>United States</span>
-					<span>Male</span>
-				</div>
-				<div class="table-row">
-					<span>Elon Mask</span>
-					<span>+1111111111</span>
-					<span>United States</span>
-					<span>Male</span>
-				</div>
+
+				<% }) %>
 			</div>
 		</main>
 	</body>
