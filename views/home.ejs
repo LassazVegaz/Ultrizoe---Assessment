@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/common.css" />
+		<link rel="stylesheet" href="styles/home.css" />
+		<title>Home</title>
+	</head>
+	<body>
+		<main class="main-grid">
+			<div class="left">
+				<div>
+					<h1>Green <span style="color: green">Earth</span></h1>
+					<img src="images/plant.png" alt="logo" />
+				</div>
+			</div>
+
+			<div class="right">
+				<div>
+					<h2>Contact Info</h2>
+
+					<form action="post">
+						<input
+							type="text"
+							name="fname"
+							id="fname"
+							placeholder="First Name"
+							class="input"
+						/>
+						<input
+							type="text"
+							name="lname"
+							id="lname"
+							placeholder="Last Name"
+							class="input"
+						/>
+						<input
+							type="tel"
+							name="phone"
+							id="phone"
+							placeholder="Contact Number"
+							class="input"
+						/>
+
+						<select name="gender" id="gender" class="input">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+						</select>
+
+						<select name="country" id="country" class="input">
+							<option value="sri-lanka">Sri Lanka</option>
+							<option value="india">India</option>
+							<option value="japan">Japan</option>
+							<option value="russia">Russia</option>
+						</select>
+
+						<button>Submit</button>
+					</form>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

@@ -5,6 +5,8 @@
 		"**/.hg": true,
 		"**/CVS": true,
 		"**/.DS_Store": true,
-		"**/*.map": { "when": "$(basename)" }
-	}
+		"**/*.map": { "when": "$(basename)" },
+		"**/*.css": { "when": "$(basename).scss" }
+	},
+	"liveSassCompile.settings.generateMap": false
 }
